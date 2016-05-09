@@ -1,0 +1,53 @@
+/* Project CSS 
+============================================================
+============================================================*/
+
+body { background-color:#D86A6B;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+/* HEADER ============================== */
+h1 {
+	font-family: 'Oswald',Impact,Times New Roman;
+	font-style: oblique;
+	font-size: 4em;
+	color: rgba(2,255,0,1.00);
+	text-align: center;
+	text-shadow: .1em .05em rgba(23,120,15,1.00);
+	text-decoration:underline;
+	font-weight:bold;
+	line-height: 200%;
+}
+h2 {
+	text-align:center;
+	text-decoration:underline
+}
+h3 {
+	text-align:center;
+	text-decoration:underline
+}
+ul {
+	border: dotted .25em #FFFFFF;
+	border-radius: 2em;
+	background: linear-gradient(to bottom right, #2A2222, #89000B);
+	margin: 3%;
+	box-shadow: .5em .5em .5em rgba(124,102,102,1.00);
+}
+#menu1, #menu2, #menu3, #menu4, #menu5 {
+	display: inline-block;
+	margin-right: 13%;
+}
+/* ABOUT ============================== */
+
+p {
+	color:#000000;
+	text-align: center;
+	font-size:1.5em;	
+}
+/* COMPONENTS ============================== */
+
+.image { width: 70%;
+margin-left:auto;
+margin-right:auto;
+}
